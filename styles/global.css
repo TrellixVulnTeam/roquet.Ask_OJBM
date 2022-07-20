@@ -5,31 +5,30 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-html{
-    --black:#0D114F;
-    --white:#FAFAFA;
-    --red: #E83F5B;
-    --light-blue:#E0ECFF;
-    --blue: #3485FF;
-    --background:#ffffff;
-    --overlay: #040911;
-    --icons-detail: #A5B0C1;
 
-    --gre-blue: #A1B2CD;
-    --gre-light: #E5EAF1;
+html{
+    --black: #0D114F;
+    --white: #FAFAFA;
+    --red: #E83F5B;
+    --light-blue: #E0ECFF;
+    --blue: #3485FF;
+    --background: #f7f7f7;
+    --overlay: #040911;
+    --icons-details: #A5B0C1;
+
     --gre-dark: #4D5E77;
+    --gre-blue: #A1B2CD;
+    --gre-light:#E5EAF1;
     --grey-medium: #eaecf2;
 
-/* 1rem = 16px (User Agent) = 100% (User Agent) */
-font-size: 62.5% /* 10px */
+    /* 1rem = 16px (User Agent) = 100% (User Agent) */
+    font-size: 62.5% /* 10px */
 }
 
 body{
     display: flex;
     height: 100vh;
     background: var(--background);
-
-   
 }
 
 body, button, input, textarea{
@@ -37,6 +36,7 @@ body, button, input, textarea{
     font-size: clamp(14px, 1.6rem, 2vw);
 
     font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 .content{
@@ -56,6 +56,8 @@ body, button, input, textarea{
     border-width: 0;
 }
 
+
+/*--------- input and buttons*/
 input, button, .button{
     border-radius: .8rem;
     height: 5rem;
@@ -79,30 +81,45 @@ button, .button{
 }
 
 button:hover, .button:hover{
-    filter:brightness(1.2);
+    filter: brightness(1.2);
 }
 
-button > img, .button > img {
+button > img,
+.button > img{
     margin-right: 1rem;
     width: 2rem;
-
 }
 
-.button.outlined,
+button.outlined,
 .button.outlined{
     background: var(--white);
     color: var(--blue);
     border: .2rem solid var(--blue);
 }
 
+button.red,
+.button.red{
+    background: var(--red);
+    color: var(--white);
+}
+
+button.grey,
+.button.grey{
+    background: var(--gre-light);
+    color: var(--gre-dark);
+}
+
+
+
+/*** HEADER ****/
+
 .content header{
-    width: 80%;
+    width: 80%;  
     margin: 3.5rem auto;
 }
 
 .content header img{
     width: 16.7rem;
-
 }
 
 
