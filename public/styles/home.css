@@ -38,8 +38,8 @@ main h2{
     margin-bottom: 2.4rem;
 }
 
-input{
-    border: .2rem solid var(--grey-blue);
+input {
+    border: .2rem solid var(--gre-blue);
     padding: 0 1.6rem;
     outline: none;
 }

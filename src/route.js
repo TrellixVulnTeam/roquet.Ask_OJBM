@@ -1,6 +1,8 @@
 const express = require('express')
 
 const route = express.Router()
+const RoomController = require('./controllers/RoomController')
+
 
 
 route.get('/', (req, res) => res.render("index"))
