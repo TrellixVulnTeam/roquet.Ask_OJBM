@@ -5,4 +5,4 @@ const { open } = require("sqlite")
      open({
          filename: './src/db/rocketq.sqlite',
          driver: sqlite3.Database,
-     });
+     }); 
