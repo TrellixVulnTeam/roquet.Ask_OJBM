@@ -6,6 +6,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/nat-1501/roquet.Ask)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nat-1501/roquet.Ask)
 
+
 </div>
 
 ##
@@ -67,6 +68,12 @@ Vá para o diretório do projeto
 
 ```bash
   cd roquet.Ask
+```
+
+Agora abra no editor de texto que preferir (no caso do VScode)
+
+```bash
+  code .
 ```
 
 
