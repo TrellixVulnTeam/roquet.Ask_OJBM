@@ -36,15 +36,6 @@ This project was developed with the following technologies:
 ([Beekeeper](https://www.beekeeperstudio.io/download/?ext=exe&arch=&type=installer&edition=ultimate)) Ou outro de sua preferencia, e 
 ([Git](https://git-scm.com/downloads))
 
-## :hammer_and_wrench: Features 
-
-
-- Um e-mail para sua caixa de e-mails é enviado com o seu feedback;
-- Permite realizar um Screenshot da tela do usuario para enviar junto ao feedback;
-- Tema Dark/Light;
-- Permite redirecionar o usuário para dashboard dos feedacks;
-- Disponibiliza a função de Logout;
-- Autenticação de login (Firebase)
 
 ## 🔖 Layout
 
